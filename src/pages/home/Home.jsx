@@ -10,6 +10,7 @@ function Home() {
       <div className='home__textos'>
        <h1>Pagina Home</h1>
        <p>lugar para las publicaciones</p>
+       <p>texto nuevo</p>
       </div>
       
       <div className='home__publicaciones'>
