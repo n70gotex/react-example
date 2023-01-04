@@ -1,0 +1,16 @@
+.nav__paginas{
+    background: black;
+    width: 70%;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+    text-align: center;
+}
+.paginas__link{
+    color: aqua;
+    padding: 0 30px;
+   
+}

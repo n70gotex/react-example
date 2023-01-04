@@ -1,0 +1,139 @@
+header{
+    background: #20232A;
+}
+
+.navpc{
+    width: 90%;
+    max-width: 1200px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: #20232A;
+    color: white;
+}
+.navpc__logo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.navpc__img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+}
+.navpc__link{
+    display: flex;
+}
+
+.navpc__ul{
+    display: flex;
+    width: 90%;
+    gap: 15px;
+    list-style: none;
+    padding: 70px 0;
+}
+
+.navpc__link{
+    text-decoration: none;
+    color: white;
+}
+
+.navpc__item{
+    display: flexbox;
+    cursor: pointer;
+    text-align: center;
+}
+
+.navpc__span{
+    text-align: center;
+    color: #61DAFB;
+}
+
+.navpc__linkpaginas{
+    text-decoration: none;
+    color: #61DAFB;
+}
+.navpc__cajauno{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.navpc__cajados{
+   
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: black;
+}
+.navpc__botonarriba{
+    width: 30px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    background: #20232a2f;
+}
+
+.navpc__paginas{
+    margin-top: 15px;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+    text-align: center;
+}
+.navpc__paginas.isActive{
+    border: dotted 1px black;
+    height: 25vh;
+    opacity: 1;
+    position: relative;
+
+}
+.verponsive{
+    margin-top: 15px;
+    display: flex;
+    background: wheat;
+    color: white;
+    border-radius:  10px;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+    text-align: center;
+   
+}
+
+.verponsive.isActive{
+    height: 22vh;
+    opacity: 1;
+    position: sticky;
+}
+
+.navpc__cerrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 1em;
+    border: 1px solid gray;
+}
+.nav__container{
+    display: none;
+}
+
+@media (max-width: 600px){
+    .nav__container{
+        display: initial;
+    }
+}

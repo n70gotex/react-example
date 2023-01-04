@@ -1,0 +1,53 @@
+.Ejercicio1{
+    width: 90%;
+    margin-top: 10px;
+    border: solid 5px antiquewhite;
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+.caja{
+    border: solid 5px red;
+}
+.cajados{
+    border: solid 5px aqua;
+    color: aquamarine;
+}
+/*---------------------------------------------------------*/
+.cambioclase{
+
+    display: flex;
+    width: 500px;
+}
+.cambioclase--uno{
+    height: 150px;
+    height: 150px;
+    background: aqua;
+}
+.cambioclase--dos{
+    height: 250px;
+    height: 250px;
+    background: aquamarine;
+    text-align: center;
+    font-size: 30px;
+}
+/*---------------------------------------------------------*/
+.buscar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.buscar--ariiba{
+    justify-content: center;
+    align-items: flex-start;
+    background: aqua;
+    margin-bottom: 100px;
+
+}
+
+.buscar--center{
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+}

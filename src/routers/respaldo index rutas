@@ -1,0 +1,64 @@
+
+import { createBrowserRouter } from "react-router-dom";
+import LayoutPublic from "../layout/LayoutPublic";
+import Login from "../pages/login/Login";
+import Home from "../pages/home/Home";
+import Publicaciones from "../pages/publications/Publicaiones";
+import NotFound from "../pages/errors/NotFound";
+import Contacto from "../pages/contact/Contacto";
+import Sobremi from "../pages/sobre/Sobremi";
+import Search from "../pages/publications/pages/Search";
+import Mans from "../pages/publications/pages/Mans";
+import Womans from "../pages/publications/pages/Womans";
+
+
+export const router = createBrowserRouter([
+
+    {
+        index: true,
+        element: <Login />,
+    },
+
+    {
+        path: "/",
+        element: <LayoutPublic />,
+        errorElement: <NotFound />,
+        children:[
+
+        {
+            path: "/Home",
+            element: <Home />,
+        },
+     
+        {
+            path: "/Contacto",
+            element: <Contacto />,
+        },
+        {
+            path: "/Sobremi",
+            element: <Sobremi />,
+        },
+       ]
+    },
+
+    {
+        path: "/Publicaciones",
+        element: <Publicaciones />,
+    },
+
+    {
+        path: "/Mans",
+        element: <Mans />,
+    },
+
+    {
+        path: "/Womans",
+        element: <Womans />,
+    },
+
+    {
+        path: "/Search",
+        element: <Search />,
+    },
+    
+]);

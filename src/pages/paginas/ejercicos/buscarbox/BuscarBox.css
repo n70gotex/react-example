@@ -1,0 +1,24 @@
+
+.buscar-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.busaca-box-botones{
+    display: flex;
+    flex-direction: row;
+}
+
+.busaca-box-input{
+
+}
+
+.busaca-box-text{
+
+}
+.BusResul{
+    width: 500px;
+    background: tomato;
+    margin-bottom: 30px;
+}

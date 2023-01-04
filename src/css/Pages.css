@@ -1,0 +1,35 @@
+
+.home{
+    width: 90%;
+    margin: auto;
+    height: 650px;
+    margin-top: 50px;
+    text-align: center;
+}
+.home__publicaciones{
+    margin-top: 50px;
+    width: 80%;
+    margin: 50px auto 0 auto;
+
+    height: 400px;
+    border: solid 2px black;
+}
+.ejercios__page{
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 0 0 20px 0;
+}
+.ejercios__textos{
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 0;
+}
+.ejercicios__contenido{
+    width: 90%;
+    height: 90%;
+    margin: 50px auto 0 auto;
+    border: solid 3px aquamarine;
+    padding: 30px 20px 0 20px;
+    
+}
